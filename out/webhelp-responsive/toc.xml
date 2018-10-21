@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><toc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns="http://www.oxygenxml.com/ns/webhelp/toc">
+   <title><span xmlns="http://www.w3.org/1999/xhtml" class="booktitle">  <span class="ph mainbooktitle">DITA, APIs, Swagger...</span>  </span></title>
+   <topic href="introduction.html" data-id="concept_lrd_r1l_nfb" wh-toc-id="concept_lrd_r1l_nfb-d66e14">
+      <title>Introduction</title>
+      <shortdesc>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+      </shortdesc>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="concept_lrd_r1l_nfb"></resourceid>
+         <navtitle class="- topic/navtitle ">Introduction</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Introduction</linktext><?ditaot genshortdesc?>
+         <shortdesc class="- map/shortdesc "></shortdesc>
+      </topicmeta>
+   </topic>
+   <topic href="how-tos.html" data-id="concept_xlk_2bl_nfb" wh-toc-id="concept_xlk_2bl_nfb-d66e25">
+      <title>How-tos</title>
+      <shortdesc>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+      </shortdesc>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="concept_xlk_2bl_nfb"></resourceid>
+         <navtitle class="- topic/navtitle ">How-tos</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">How-tos</linktext><?ditaot genshortdesc?>
+         <shortdesc class="- map/shortdesc "></shortdesc>
+      </topicmeta>
+      <topic href="howtoslateapi.html" data-id="task_mb5_f2l_nfb" wh-toc-id="task_mb5_f2l_nfb-d66e35">
+         <title>How to use Slate for API Reference Documentation</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Lists the high-level steps to use Slate for your API reference         documentation</p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="task_mb5_f2l_nfb"></resourceid>
+            <navtitle class="- topic/navtitle ">How to use Slate for API Reference Documentation</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">How to use Slate for API Reference Documentation</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Lists the high-level steps to use Slate for your API reference         documentation</shortdesc>
+         </topicmeta>
+      </topic>
+   </topic>
+</toc>

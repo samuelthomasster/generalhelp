@@ -1,0 +1,3 @@
+define(function () {
+return ["how-tos.html@@@How-tos@@@This section lists topics on various how tos...","howtoslateapi.html@@@How to use Slate for API Reference Documentation@@@Lists the high-level steps to use Slate for your API reference documentation...","introduction.html@@@Introduction@@@This page captures some of my DITA learnings in the hopes of helping others use DITA. DITA is a framework that helps writers contribute to a specific writing project even if they are in different..."];
+});

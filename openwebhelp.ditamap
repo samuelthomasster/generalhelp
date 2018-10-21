@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>DITA, APIs, Swagger...</mainbooktitle>
+       
+    </booktitle>
+    <chapter href="introduction.dita"/>
+    <chapter href="how-tos.dita">
+        <topicref href="howtoslateapi.dita"/>
+    </chapter>
+</bookmap>
