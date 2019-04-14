@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
    <appContext helpID="concept_lrd_r1l_nfb" path="introduction.html"/>
-   <appContext helpID="concept_xlk_2bl_nfb" path="apiswaggervsslate.html"/>
+   <appContext helpID="swaggervsslate" path="apiswaggervsslate.html"/>
    <appContext helpID="concept_xlk_2bl_nfb" path="how-tos.html"/>
    <appContext helpID="task_mb5_f2l_nfb" path="howtoslateapi.html"/>
 </map>
