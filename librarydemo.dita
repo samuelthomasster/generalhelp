@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_rzv_vcg_nhb">
+    <title>Generating a site using GDocs</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>If your organisation uses GDocs, you can use the open source New York Times documentation
+            site called Library. </p>
+        <p>Library lets you:<ul id="ul_s5p_fdg_nhb">
+                <li>Collate all GDocs into one single portal.</li>
+                <li>Search across all your GDocs.</li>
+                <li>Quickly add/publish new GDocs in Library.</li>
+            </ul></p>
+        <p>To implement Library, follow the installation instructions in <xref
+                href="https://github.com/nytimes/library" format="html" scope="external"
+                >GitHub</xref>. </p>
+        <p>I have deployed a sample site using Heroku to demonstrate it's <xref
+                href="https://nytlibrarydemo.herokuapp.com/" format="html" scope="external">default
+                capabilities</xref>. The site currently uses Google authorisation. You can sign-in
+            using your personal gmail account.</p>
+    </conbody>
+</concept>

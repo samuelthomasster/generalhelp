@@ -6,7 +6,8 @@
        
     </booktitle>
     <chapter href="introduction.dita"/>
-    <topicref href="apiswaggervsslate.html"/>
+    <chapter href="swaggervsslate.dita"/>
+    <chapter href="librarydemo.dita"/>
     <chapter href="how-tos.dita">
         <topicref href="howtoslateapi.dita"/>
     </chapter>

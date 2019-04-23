@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"How to use Slate for API Reference Documentation","shortdesc":"<p class=\"shortdesc\">Lists the high-level steps to use Slate for your API reference         documentation</p>","href":"howtoslateapi.html","attributes": {"data-id":"task_mb5_f2l_nfb",},"menu": {"hasChildren":false,},"tocID":"task_mb5_f2l_nfb-d62e46","topics":[]}]});

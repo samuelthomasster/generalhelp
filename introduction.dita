@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_lrd_r1l_nfb">
-    <title>Introduction</title>
+    <title>My DITA learnings</title>
     <shortdesc></shortdesc>
     <conbody>
         <p>This page captures some of my DITA learnings in the hopes of helping others use DITA.</p>
@@ -12,7 +12,7 @@
             explain a concept, can choose to use a conceptual dita topic that allows them to
             introduce only writing elements suitable for that topic. You can customize the DITA
             templates to provide such restrictions. </p>
-        <h2> DITA vs Wiki
+
         <p>In today's world of open source development tools and infrastructure, many organisations do not need to use DITA for
            their inhouse documentation needs. Product companies are trying to foster a documentation culture around
             their development teams. This can help companies bridge knowledge gaps between teams, eliminate one neck to choke 

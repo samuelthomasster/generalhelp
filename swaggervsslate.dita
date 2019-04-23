@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_zwy_czf_nhb">
+    <title>Swagger vs Slate Output </title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p><b>Requirement</b></p>
+        <p>The API reference documentation we provide must be self-explanatory, comprehensive and
+            should include live code examples wherever possible. Our external customers should be
+            able to:</p>
+        <p>
+            <ul id="ul_amp_hzf_nhb">
+                <li>Understand and use our APIs without talking to our support or development
+                    team.</li>
+                <li>Run and test the APIs with minimal help from Grab in the form of providing
+                    authorization tokens.</li>
+                <li>Troubleshoot any issues they might face while integrating their development
+                    environment with our APIs.</li>
+            </ul>
+        </p>
+        <p>
+            <table frame="all" rowsep="1" colsep="1" id="table_ofw_11g_nhb">
+                <title><b>Why use Swagger output format?</b></title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry/>
+                            <entry>Advantages</entry>
+                            <entry>Disadvantages</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Write once in a proto file </entry>
+                            <entry>Annotations are in the code. Zero gap between the code and
+                                documentation. Minimal rework. </entry>
+                            <entry>Code layout looks messy and bulky with inline annotations
+                                occupying most of the proto file.</entry>
+                        </row>
+                        <row>
+                            <entry>Capture API parameter details</entry>
+                            <entry>Uses existing Swagger output.</entry>
+                            <entry>Swagger output does not capture detailed API explanation.
+                                Difficult to introduce images or the API execution order, if there
+                                is one. </entry>
+                        </row>
+                        <row>
+                            <entry>Provide a testing environment</entry>
+                            <entry>One of the advantages of Swagger output is its ability to let
+                                users test the endpoints. If the API endpoints can be hosted behind
+                                a user session, then we can enable the customers to run the
+                                APIs.</entry>
+                            <entry>Most often this is not the case. Without the ability to run the
+                                APIs, Swagger API reference output is not very user friendly
+                                especially for external customers. </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p>Another popular trend in covering API reference information is using a 3-column format
+            that contains the navigation elements on the left, with API description and contextual
+            information in the middle and code examples on the right. This format is supported by an
+            open source tool called Slate which uses middleman server (OOB) to publish the static
+            website. Slate output requires generation of a markdown file and hosting it as a static
+            website. You can use also use a Slate plugin to convert the Swagger json/yaml/html file
+            to a markdown file.</p>
+        <table frame="all" rowsep="1" colsep="1" id="table_j1h_t1g_nhb">
+            <title><b>Why use Slate output format?</b></title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry/>
+                        <entry>Advantages</entry>
+                        <entry>Disadvantages</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Annotations are away from code. </entry>
+                        <entry>Code is clean and easy to read.</entry>
+                        <entry>If the API behaviour changes frequently, then we have to track and
+                            change the documentation accordingly.</entry>
+                    </row>
+                    <row>
+                        <entry>Provide user-friendly content.</entry>
+                        <entry>You can add images, contextual information, API sequence custom
+                            written for each API endpoint to help customers leverage your APIs
+                            easily. </entry>
+                        <entry>Someone has to manually add them and this information is away from
+                            code. </entry>
+                    </row>
+                    <row>
+                        <entry>Provide a testing environment</entry>
+                        <entry>You can provide code examples for requests and responses and with
+                            developer's help, create a portal that can help run the APIs.</entry>
+                        <entry>Needs developer's effort to customize the portal.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>Common things to address</p>
+        <p>Things to keep in mind while creating external-facing API reference documentation: <ul
+                id="ul_clp_vbg_nhb">
+                <li>How do customers access our API endpoints? Explain the authentication
+                    token/session creating APIs in detail with multiple working examples?</li>
+                <li>Run each API endpoint either using cURL or postman collections as how a customer
+                    would run it.</li>
+                <li>Make sure you do are not a priviledged network and do not use an existing
+                    development environment.</li>
+                <li>Explain all error codes and provide recommendations on how to fix the errors.
+                </li>
+            </ul></p>
+    </conbody>
+</concept>
