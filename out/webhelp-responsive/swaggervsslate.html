@@ -2,7 +2,7 @@
 <!DOCTYPE html
   SYSTEM "about:legacy-compat">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="21.0">
-    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.type" content="concept" /><meta name="description" content="Requirement The API reference documentation we provide must be self-explanatory, comprehensive and should include live code examples wherever possible. Our external customers should be able to: ..." /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="concept_zwy_czf_nhb" />        
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.type" content="concept" /><meta name="description" content="Requirement APIs with poor documentation is at the risk of being underutilised or would demand extra time and support from your development team. You can save time by writing a comprehensive API ..." /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="concept_zwy_czf_nhb" />        
       <title>Swagger vs Slate Output</title><!--  Generated with Oxygen version 21.0, build number 2019032912.  --><meta name="wh-path2root" content="" /><meta name="wh-toc-id" content="concept_zwy_czf_nhb-d62e25" /><link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic-page.css?buildId=2019032912" /><script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"><!----></script><script data-main="./oxygen-webhelp/app/topic-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/oxygen.css?buildId=2019032912" /></head>
 
     <body id="concept_zwy_czf_nhb" class="wh_topic_page frmBody">
@@ -70,17 +70,39 @@
     
     <div class="body conbody"><p class="shortdesc"></p>
         <p class="p"><strong class="ph b">Requirement</strong></p>
-        <p class="p">The API reference documentation we provide must be self-explanatory, comprehensive and
-            should include live code examples wherever possible. Our external customers should be
-            able to:</p>
+        <p dir="ltr" class="p">APIs with poor documentation is at the risk of being underutilised or would
+            demand extra time and support from your development team. You can save time by writing a
+            comprehensive API reference documentation once thereby helping your users adopt your
+            APIs effectively. Your documentation should help to: </p>
         <div class="p">
-            <ul class="ul" id="concept_zwy_czf_nhb__ul_amp_hzf_nhb">
-                <li class="li">Understand and use our APIs without talking to our support or development
-                    team.</li>
-                <li class="li">Run and test the APIs with minimal help from Grab in the form of providing
-                    authorization tokens.</li>
-                <li class="li">Troubleshoot any issues they might face while integrating their development
-                    environment with our APIs.</li>
+            <ul class="ul" id="concept_zwy_czf_nhb__ul_xfm_n4k_nhb">
+                <li dir="ltr" class="li">
+                    <p dir="ltr" class="p">Understand the purpose and scope of the APIs. </p>
+                </li>
+                <li dir="ltr" class="li">
+                    <p dir="ltr" class="p">Build successfully authenticated requests. In case of external
+                        facing APIs, provide code samples on how to build a standardised request
+                        body to generate a HMAC signature. </p>
+                </li>
+                <li dir="ltr" class="li">
+                    <p dir="ltr" class="p">Run and test the APIs with minimal help. In case of REST APIs, the
+                        documentation should capture the HTTP method, header and request parameters
+                        and the response details for both success and failure scenarios.</p>
+                </li>
+            </ul>
+            <ul class="ul" id="concept_zwy_czf_nhb__ul_yfm_n4k_nhb">
+                <li dir="ltr" class="li">
+                    <p dir="ltr" class="p">Use request parameters effectively by specifying whether they are
+                        mandatory or optional. If the request parameter accepts enumerated values,
+                        then list the possible values. Also, list any default values used while
+                        running the API. If the parameter values are obtained by running other APIs,
+                        make sure to link them to the necessary API documentation.</p>
+                </li>
+                <li dir="ltr" class="li">
+                    <p dir="ltr" class="p">Understand the flow of the API calls between multiple systems, if
+                        any, in a particular API flow, use an UML diagram to capture the
+                        details.</p>
+                </li>
             </ul>
         </div>
         <div class="p">
