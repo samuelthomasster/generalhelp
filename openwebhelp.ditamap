@@ -5,6 +5,7 @@
         <mainbooktitle>DITA, APIs, Swagger...</mainbooktitle>
        
     </booktitle>
+    <chapter href="apiexamples.dita"/>
     <chapter href="introduction.dita"/>
     <chapter href="swaggervsslate.dita"/>
     <chapter href="librarydemo.dita"/>
