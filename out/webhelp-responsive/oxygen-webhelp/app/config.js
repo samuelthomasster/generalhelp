@@ -3,7 +3,11 @@ define(function() {
     var modulePaths = {
         // core
         "webhelp" : "core/webhelp",
-        "expand" : "core/expand",
+        "codeblock": "core/wh-codeblock",
+        "top-menu": "core/wh-top-menu",
+        "expand": "core/expand",
+        "permalink": "core/permalink",
+        "polyfill": "core/polyfill",
         // context sensitive help
         "context-help" : "context-help/context-help",
         "context-help-map" : "context-help/context-help-map",
@@ -58,7 +62,7 @@ define(function() {
          ********************************************************/
 
         // JQuery
-        "jquery" : "../lib/jquery/jquery-3.1.1.min",
+        "jquery" : "../lib/jquery/jquery-3.5.1.min",
         // JQuery UI
         "jquery.ui" : "../lib/jquery-ui/jquery-ui.min",
         // JQuery Highlight
@@ -70,7 +74,9 @@ define(function() {
         // JQuery Bootpag
         "jquery.bootpag" : "../lib/jquery-bootpag/jquery.bootpag.min",
         // Popper
-        "bootstrap" : "../lib/bootstrap/js/bootstrap.bundle.min"
+        "bootstrap" : "../lib/bootstrap/js/bootstrap.bundle.min",
+
+        "kuromoji" : "../lib/kuromoji/kuromoji"
     };
 
     var shimConfig = {
@@ -94,6 +100,16 @@ define(function() {
     requirejs.config({
         paths : modulePaths,
         shim : shimConfig,
+        urlArgs: function(id, url) {
+            var args = '2021030117';
+        	
+            if(id === 'index-1' || id === 'index-2' || id === 'index-3' || id === 'stopwords' 
+            ||id === 'htmlFileInfoList' || id === 'keywords') {
+                args = '20210313142624';
+        	} 
+	
+	        return (url.indexOf('?') === -1 ? '?' : '&') + args;
+    	},
         map: {
             // @see http://requirejs.org/docs/jquery.html#noconflictmap
 

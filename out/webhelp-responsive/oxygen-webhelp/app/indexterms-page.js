@@ -3,8 +3,10 @@
  */
 define(["require", "config"], function() {
     require([
+        'polyfill',
         'menu',
         'expand',
+        'permalink',
         'template-module-loader'
     ]);
 });

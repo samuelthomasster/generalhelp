@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
+   <appContext helpID="concept_lrd_r1l_nfb" path="apiexamples.html"/>
    <appContext helpID="concept_lrd_r1l_nfb" path="introduction.html"/>
    <appContext helpID="concept_zwy_czf_nhb" path="swaggervsslate.html"/>
    <appContext helpID="concept_rzv_vcg_nhb" path="librarydemo.html"/>
