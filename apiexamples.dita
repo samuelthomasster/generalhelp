@@ -5,13 +5,20 @@
 
     <shortdesc></shortdesc>
     <conbody>
-        <p>This page provides links to Pet Store API reference examples generated using:</p>
+        <p>This page provides links to some of the API reference documentation tools that I evaluated recently. The sample sites use the Pet Store swagger API specification and were generated using:</p>
         <ul>
-            <li><xref href="https://samuelthomasster.github.io/vuepressdocs/" format="html" scope="external">VuePress</xref></li>
-            <li><xref href="https://samuelthomasster.github.io/#swagger-petstore" format="html" scope="external">Hugo</xref></li>
-            <li><xref href="https://samuelthomas-eval-petstoreapidocs.apigee.io/docs/swagger-petstore-api/1/routes/pets/get" format="html" scope="external">Apigee - Petstore</xref></li>
+            <li><xref href="https://samuelthomasster.github.io/vuepressdocs/" format="html" scope="external">VuePress</xref>: Responsive, analytics friendly, Vue powered dynamic site.</li>
+            <li><xref href="https://samuelthomasster.github.io/#swagger-petstore" format="html"
+                    scope="external">Hugo: Most popular Single Page Application (SPA) generation
+                    tool.</xref></li>
+            <li><xref
+                    href="https://samuelthomas-eval-petstoreapidocs.apigee.io/docs/swagger-petstore-api/1/routes/pets/get"
+                    format="html" scope="external">Apigee - Petstore: Google's API management
+                    tool.</xref></li>
             <li><xref href="https://samuelthomas-eval-helloworld.apigee.io/docs/hello-world/1/routes/get" format="html" scope="external">Apigee - Hello World</xref></li>
-            <li><xref href="https://samuelthomasster.github.io/apidocs/" format="html" scope="external">Slate</xref></li>
+            <li><xref href="https://samuelthomasster.github.io/apidocs/" format="html"
+                    scope="external">Slate: Quick and easy to set up SPA generation
+                tool.</xref></li>
             <li><xref href="https://petstoreapidocs.readme.io/reference#getting-started-with-your-api" format="html" scope="external">ReadMe</xref></li>
         </ul>
 

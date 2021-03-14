@@ -95,7 +95,9 @@
             information in the middle and code examples on the right. This format is supported by an
             open source tool called Slate which uses middleman server to publish the pages as a static
             single page web application. You can use also use the <xref href="https://github.com/Mermade/widdershins" format="html" scope="external">widdershin plugin</xref> to convert the Swagger json/yaml/html file to a Slate supported markdown file.</p>
-        <p>There are many tools that can create single page applications using set of markdown files. You can <xref href="apiexamples.dita"> find some of the tools</xref> that I evaluated recently.</p>
+        <p>There are many tools that can create single page applications using a set of markdown
+            files. For more information, <xref href="apiexamples.dita"> see the list of tools</xref>
+            that I evaluated recently.</p>
         <table frame="all" rowsep="1" colsep="1" id="table_j1h_t1g_nhb">
             <title><b>Why use a 3-column API reference output format?</b></title>
             <tgroup cols="3">
