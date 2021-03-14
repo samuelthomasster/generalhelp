@@ -14,7 +14,7 @@
         <p>To implement Library, follow the installation instructions in <xref
                 href="https://github.com/nytimes/library" format="html" scope="external"
                 >GitHub</xref>. </p>
-        <p>I have deployed a sample site using Heroku to demonstrate it's <xref
+        <p>I have deployed a sample site using Heroku to demonstrate its <xref
                 href="https://nytlibrarydemo.herokuapp.com/" format="html" scope="external">default
                 capabilities</xref>. The site currently uses Google authorisation. You can sign-in
             using your personal gmail account.</p>
