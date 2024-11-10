@@ -6,7 +6,7 @@
         documentation</shortdesc>
     <taskbody>
         <context>
-            <p><xref href="https://github.com/lord/slate" format="html" scope="external">Lord's
+            <p><xref href="https://github.com/lord/slate" format="html" scope="external">
                     Slate</xref> is a popular method of representing REST APIs. You can capture your
                 endpoint details, request and response parameters and even provide code examples for
                 as many languages you support. This topic provides high-level steps to install Slate

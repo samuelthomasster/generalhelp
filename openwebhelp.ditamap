@@ -2,11 +2,10 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
     <booktitle>
-        <mainbooktitle>DITA, APIs, Swagger...</mainbooktitle>
+        <mainbooktitle>DITA, APIs, Open API Specification (Previously Swagger)...</mainbooktitle>
        
     </booktitle>
     <chapter href="apiexamples.dita"/>
-    <chapter href="introduction.dita"/>
     <chapter href="swaggervsslate.dita"/>
     <chapter href="librarydemo.dita"/>
     <chapter href="how-tos.dita">
