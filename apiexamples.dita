@@ -3,14 +3,13 @@
 <concept id="concept_lrd_r1l_nfb">
     <title>API reference outputs</title>
 
-    <shortdesc></shortdesc>
+    <shortdesc>A collection of links to API reference documentation tools and sample outputs.</shortdesc>
     <conbody>
         <p>This page provides links to some of the API reference documentation tools that I evaluated recently. The sample sites use the Pet Store swagger API specification and were generated using:</p>
         <ul>
             <li><xref href="https://samuelthomasster.github.io/vuepressdocs/" format="html" scope="external">VuePress:</xref> Responsive, analytics friendly, Vue powered dynamic site.</li>
             <li><xref href="https://samuelthomasster.github.io/#swagger-petstore" format="html"
-                    scope="external">Hugo:</xref> Most popular Single Page Application (SPA)
-                generation tool.</li>
+                    scope="external">Hugo:</xref> A fast and popular Static Site Generator (SSG).</li>
             <li><xref
                     href="https://samuelthomas-eval-petstoreapidocs.apigee.io/docs/swagger-petstore-api/1/routes/pets/get"
                     format="html" scope="external">Apigee - Petstore:</xref> Google's API management

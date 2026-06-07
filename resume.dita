@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="resume_samuel_thomas">
+    <title>Resume - Samuel Thomas</title>
+    <shortdesc>Professional resume of Samuel Thomas, Senior Technical Writer specializing in API and developer documentation.</shortdesc>
+    <conbody>
+        <section id="contact_info">
+            <title>Contact Information</title>
+            <p>
+                <b>Telephone:</b> +31629375303<br/>
+                <b>Email:</b> <xref href="mailto:samuelthomasster@gmail.com" format="html" scope="external">samuelthomasster@gmail.com</xref><br/>
+                <b>Links:</b> 
+                <xref href="https://www.linkedin.com/in/samuelthomasster" format="html" scope="external">LinkedIn</xref> | 
+                <xref href="https://github.com/samuelthomasster" format="html" scope="external">GitHub</xref>
+            </p>
+        </section>
+        
+        <section id="summary">
+            <title>Professional Summary</title>
+            <p>Senior Technical Writer specialising in API and developer documentation, with 20+ years of experience across fintech, cloud, and connectivity platforms. Currently at Booking.com, building AI-augmented documentation workflows using Claude Code, custom LLM agents, and OpenAPI tooling. Skilled in prompt engineering, OpenAPI specification authoring, and developer experience design. Proven track record of reducing documentation cycle times, improving API adoption, and bridging the gap between engineering teams and external developers.</p>
+        </section>
+
+        <section id="tools">
+            <title>Tools and Technologies</title>
+            <ul>
+                <li><b>Documentation:</b> OpenAPI (OAS), Redocly, Stoplight, Postman, Wiremock, DITA, Confluence, Slate, VuePress, Markdown</li>
+                <li><b>AI and Developer Tools:</b> Claude, Claude Code, LLM agents, Python, GitHub, Jsonnet, Go, GitLab, Jira</li>
+                <li><b>Content Types:</b> API reference, SDK documentation, developer guides, CLI reference, CodeLabs, OpenAPI specifications</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <title>Work Experience</title>
+            
+            <section id="booking">
+                <title>Senior Technical Writer, Booking.com, Amsterdam (Dec 2021 to present)</title>
+                <p>Author API reference documentation for the Booking.com Connectivity APIs. Help teams launch API products by creating reference guides, OpenAPI specifications (OAS), and building Postman collections and Wiremock stubs to verify functionality.</p>
+                <p>Drive developer experience through thoughtful and consistent API design by providing feedback on parameter naming, error handling, and versioning conventions, and by identifying functionality gaps across Web and Mobile platforms.</p>
+                <p><b>Key achievements:</b></p>
+                <ul>
+                    <li>Built customised AI agents (Wiremock, Redocly) for specific documentation tasks, and integrated GenAI tooling across the full workflow, from generating Jira epics and task breakdowns to reviewing drafts, enabling significantly higher output without sacrificing quality.</li>
+                    <li>Developed Python scripts using Claude Code to generate OpenAPI specifications from Postman collections and validate them against live requests, reducing multi-day efforts to a few hours.</li>
+                    <li>Introduced OpenAPI tooling (Stoplight.io and Redocly CLI) and authored adoption guidelines, resulting in 5+ OAS deployments and a Postman collection with 200+ downloads within 6 months.</li>
+                    <li>Improved provider satisfaction scores by 12% by delivering new conceptual topics addressing the most common pain points around latency and availability of the Reservations API.</li>
+                </ul>
+            </section>
+
+            <section id="uncharted">
+                <title>Senior Technical Writer, Uncharted Global, Singapore (Jan 2021 to Nov 2021)</title>
+                <p>As a member of a small startup with fewer than 20 employees, set up the API documentation generation tool and internal engineering templates. Authored API reference documentation for external API endpoints and a scenario-based developer guide for the Domain Specification Language (DSL) model that drives the backend.</p>
+                <ul>
+                    <li>Evaluated multiple API reference documentation tools and selected VuePress as the preferred API documentation platform.</li>
+                    <li>Created API reference documentation templates for engineering teams.</li>
+                    <li>Built Postman collections for multiple API endpoints to test and demonstrate product capabilities.</li>
+                </ul>
+            </section>
+
+            <section id="grab">
+                <title>Lead Technical Writer, Grab, Singapore (Apr 2018 to Jan 2021)</title>
+                <p>Authored developer-facing documentation and CodeLabs for tools and frameworks that improve quality of life for developers. Worked across Spinnaker-based CI/CD, GitLab, Codecov, and Appraise. Used GIMP, Snagit, and Camtasia to create images, videos, and workflow diagrams.</p>
+                <ul>
+                    <li>Created the initial API reference and SDK documentation for Grab's external-facing APIs, including One-time Payments and Tokenized Payments, using Markdown. Established templates to standardise all reference documents.</li>
+                    <li>Created a test microservice using the Go-Kit framework to validate the tools described in documentation.</li>
+                    <li>Conducted training sessions and talks on knowledge management systems and writing best practices.</li>
+                    <li>Built the API documentation prototype using Slate and drove its adoption across the team.</li>
+                    <li>Learned Jsonnet and wrote Python API clients handling OAuth signature generation to test API endpoints.</li>
+                </ul>
+            </section>
+
+            <section id="jio">
+                <title>Senior Technical Writer, Reliance Jio, India (Jan 2015 to Apr 2018)</title>
+                <p>Worked across two teams: Reliance JioMoney and Reliance Jio Cloud Services.</p>
+                <ul>
+                    <li>Created API, CLI reference, and Web console user documentation for 4 cloud services, covering IaaS consumers from tool selection through content delivery.</li>
+                    <li>Created DITA topic templates and customised the DITA OT to generate multiple output types (Online Help and PDF) using oXygen XML.</li>
+                    <li>Hosted an oXygen project in GitHub to enable multiple-writer contributions with both PDF and WebHelp output, using conditional processing to filter content.</li>
+                    <li>Used network monitoring tools (Charles, Firefox WebIDE) to reverse-engineer undocumented API endpoints and create functional flow documentation spanning multiple systems.</li>
+                    <li>Implemented Slate to deliver API reference documentation with the same look and feel as Stripe and Paytm.</li>
+                </ul>
+            </section>
+        </section>
+
+        <section id="earlier">
+            <title>Earlier Experience</title>
+            <ul>
+                <li>Lead Technical Writer, Numerify Inc. (now Digital.ai), India (Mar 2014 to Jan 2015)</li>
+                <li>Senior Technical Writer, Kalido LLC (now Magnitude Software), India (Nov. 2010 - Mar 2014)</li>
+                <li>Technical Communications Expert, Amdocs (Mar 2008 to Nov 2010)</li>
+                <li>Content Writer (contract), Microsoft Global Services India (Nov 2007 to Mar 2008)</li>
+                <li>Technical Writer, Oracle India (P) Ltd. (Sep 2005 to Nov 2007)</li>
+                <li>Technical Writer, i7 Software Asia (now FE fundinfo) (Mar 2004 to Sep 2005)</li>
+                <li>Web Content Developer and Designer, Freelance, Dubai (Jul 2003 to Dec 2003)</li>
+                <li>Proofreader, Integra Software Services (Dec 2001 to May 2003)</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <title>Education</title>
+            <p>B.Sc. Computer Science, Loyola College, Madras University, Chennai, India (Apr 2000)</p>
+        </section>
+
+        <section id="personal">
+            <title>Personal Details</title>
+            <ul>
+                <li><b>Full name:</b> Samuel Prabhakar Rajesh Thomas</li>
+                <li><b>Nationality:</b> Indian</li>
+                <li><b>Languages:</b> Proficient in English. Dutch A2 certified; currently learning B1.</li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

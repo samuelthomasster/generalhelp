@@ -5,10 +5,12 @@
         <mainbooktitle>DITA, APIs, Open API Specification (Previously Swagger)...</mainbooktitle>
        
     </booktitle>
+    <chapter href="introduction.dita"/>
     <chapter href="apiexamples.dita"/>
     <chapter href="swaggervsslate.dita"/>
     <chapter href="librarydemo.dita"/>
     <chapter href="how-tos.dita">
         <topicref href="howtoslateapi.dita"/>
     </chapter>
+    <chapter href="resume.dita"/>
 </bookmap>

@@ -2,9 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_rzv_vcg_nhb">
     <title>Generating a site using GDocs</title>
-    <shortdesc></shortdesc>
+    <shortdesc>Learn how to use the Library tool from the New York Times to host documentation using Google Docs.</shortdesc>
     <conbody>
-        <p>If your organisation uses GDocs, you can use the open source New York Times documentation
+        <p>If your organization uses GDocs, you can use the open source New York Times documentation
             site called Library. </p>
         <p>Library lets you:<ul id="ul_s5p_fdg_nhb">
                 <li>Collate all GDocs into one single portal.</li>

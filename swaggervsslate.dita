@@ -2,45 +2,46 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_zwy_czf_nhb">
     <title>Swagger vs Slate Output </title>
-    <shortdesc></shortdesc>
+    <shortdesc>A comparison between Swagger and Slate for API reference documentation, including requirements and common practices.</shortdesc>
     <conbody>
-        <p><b>Requirement</b></p>
-        <p dir="ltr">APIs with poor documentation are at the risk of being underutilised or would
-            demand extra time and support from your development team before customers can
-            successfully implement them. You can save time and increase customer adoption by
-            creating and maintaining a comprehensive API reference documentation.</p> 
+        <section>
+            <title>Requirement</title>
+            <p>APIs with poor documentation are at the risk of being underutilized or would demand
+                extra time and support from your development team before customers can successfully
+                implement them. You can save time and increase customer adoption by creating and
+                maintaining a comprehensive API reference documentation.</p>
+        </section>
         <p>Your documentation should help users: </p>
         <p>
             <ul id="ul_xfm_n4k_nhb">
-                <li dir="ltr">
-                    <p dir="ltr">Understand the purpose and scope of the APIs. </p>
+                <li>
+                    <p>Understand the purpose and scope of the APIs. </p>
                 </li>
-                <li dir="ltr">
-                    <p dir="ltr">Create requests that can successfully authenticate and authorise
-                        the use of the API resources. In case of external facing APIs, provide code
-                        samples on how to build a standardised request body to generate a valid HMAC
-                        signature or OAuth tokens. </p>
+                <li>
+                    <p>Create requests that can successfully authenticate and authorize the use of
+                        the API resources. In case of external facing APIs, provide code samples on
+                        how to build a standardized request body to generate a valid HMAC signature
+                        or OAuth tokens. </p>
                 </li>
-                <li dir="ltr">
-                    <p dir="ltr">Run and test APIs with minimal help. In case of REST APIs, the
-                        documentation should capture the HTTP method, header and request parameters
-                        and the response details for both success and failure scenarios.</p>
+                <li>
+                    <p>Run and test APIs with minimal help. In case of REST APIs, the documentation
+                        should capture the HTTP method, header and request parameters and the
+                        response details for both success and failure scenarios.</p>
                 </li>
             </ul>
             <ul id="ul_yfm_n4k_nhb">
-                <li dir="ltr">
-                    <p dir="ltr">Use request parameters effectively by specifying whether they are
-                        mandatory or optional. If the request parameter accepts enumerated values,
-                        make sure to list the possible values. Also, list any default values used while
-                        running the API endpoint. If the parameter values are obtained by running other APIs,
-                        make sure to link them to the necessary API documentation.</p>
+                <li>
+                    <p>Use request parameters effectively by specifying whether they are mandatory
+                        or optional. If the request parameter accepts enumerated values, make sure
+                        to list the possible values. Also, list any default values used while
+                        running the API endpoint. If the parameter values are obtained by running
+                        other APIs, make sure to link them to the necessary API documentation.</p>
                 </li>
-                <li dir="ltr">
-                    <p dir="ltr">Understand the flow of the API calls between multiple systems, if
-                        any, in a particular API flow. Use UML diagrams to capture the details. I
-                        prefer <xref href="https://plantuml.com/sequence-diagram" type="external"
-                            >PlantUML diagrams</xref> as it allows you to create UML diagrams as
-                        code.</p>
+                <li>
+                    <p>Understand the flow of the API calls between multiple systems, if any, in a
+                        particular API flow. Use UML diagrams to capture the details. I prefer <xref
+                            href="https://plantuml.com/sequence-diagram" type="external">PlantUML
+                            diagrams</xref> as they allow you to create UML diagrams as code.</p>
                 </li>
             </ul>
         </p>
@@ -60,8 +61,9 @@
                     </thead>
                     <tbody>
                         <row>
-                            <entry>Write once in a proto file, if you are using a Go-based development environment. </entry>
-                            <entry>Annotations are embedded in code. You can minimise the gap
+                            <entry>Write once in a proto file, if you are using a Go-based
+                                development environment. </entry>
+                            <entry>Annotations are embedded in code. You can minimize the gap
                                 between code and documentation. Minimal rework. </entry>
                             <entry>Code layout looks messy and bulky with inline annotations
                                 occupying most of the proto file.</entry>
@@ -70,8 +72,8 @@
                             <entry>Capture API parameter details.</entry>
                             <entry>Uses existing Swagger output.</entry>
                             <entry>Swagger output does not capture detailed API explanation.
-                                Difficult to introduce images or API execution order, if there
-                                is one. </entry>
+                                Difficult to introduce images or API execution order, if there is
+                                one. </entry>
                         </row>
                         <row>
                             <entry>Provide a testing environment.</entry>
@@ -87,67 +89,74 @@
                 </tgroup>
             </table>
         </p>
-        <div>
-            <wintitle>The 3-column layout</wintitle>
-        </div>
-        <p>Another popular trend in covering API reference information is using a 3-column format
-            that contains the navigation elements on the left, with API description and contextual
-            information in the middle and code examples on the right. This format is supported by an
-            open source tool called Slate which uses middleman server to publish the pages as a static
-            single page web application. You can use also use the <xref href="https://github.com/Mermade/widdershins" format="html" scope="external">widdershin plugin</xref> to convert the Swagger json/yaml/html file to a Slate supported markdown file.</p>
-        <p>There are many tools that can create single page applications using a set of markdown
-            files. For more information, <xref href="apiexamples.dita"> see the list of tools</xref>
-            that I evaluated recently.</p>
-        <table frame="all" rowsep="1" colsep="1" id="table_j1h_t1g_nhb">
-            <title><b>Why use a 3-column API reference output format?</b></title>
-            <tgroup cols="3">
-                <colspec colname="c1" colnum="1" colwidth="1*"/>
-                <colspec colname="c2" colnum="2" colwidth="1*"/>
-                <colspec colname="c3" colnum="3" colwidth="1*"/>
-                <thead>
-                    <row>
-                        <entry/>
-                        <entry>Advantages</entry>
-                        <entry>Disadvantages</entry>
-                    </row>
-                </thead>
-                <tbody>
-                    <row>
-                        <entry>Annotations are away from code. </entry>
-                        <entry>Code is clean and easy to read.</entry>
-                        <entry>If the APIs change frequently, we have to track and
-                            change the documentation accordingly. But in the case of published APIs that are consumed by many, this is hardly the case.</entry>
-                    </row>
-                    <row>
-                        <entry>Provide user-friendly content.</entry>
-                        <entry>You can add images, contextual information, API sequences that are custom
-                            written for each API endpoint to help customers leverage your APIs
-                            easily. </entry>
-                        <entry>Someone has to manually add them and this information is away from
-                            your code. </entry>
-                    </row>
-                    <row>
-                        <entry>Provide a testing environment.</entry>
-                        <entry>You can provide code examples for requests and responses and with
-                            developer's help, create a portal that can help run the APIs.</entry>
-                        <entry>Needs developer's effort to customize the portal.</entry>
-                    </row>
-                </tbody>
-            </tgroup>
-        </table>
-       <div>
-           <wintitle>Common things to address</wintitle></div>
-        <p>Things to keep in mind while creating external-facing API reference documentation: <ul
-                id="ul_clp_vbg_nhb">
-                <li>How do customers access our API endpoints? Explain the APIs that help create
-                    authentication tokens or user sessions in detail with multiple working
-                    examples.</li>
-                <li>Run each API endpoint either using cURL or postman collections to simulate how a
-                    customer would run it.</li>
-                <li>Make sure to run the APIs from a network that doesn't implicitly provide access
-                    to the resources or using a preconfigured development environment.</li>
-                <li>Explain all the error codes and provide recommendations on how to fix the
-                    errors. </li>
-            </ul></p>
+        <section>
+            <title>The 3-column layout</title>
+            <p>Another popular trend in covering API reference information is using a 3-column
+                format that contains the navigation elements on the left, with API description and
+                contextual information in the middle and code examples on the right. This format is
+                supported by an open source tool called Slate which uses middleman server to publish
+                the pages as a static single page web application. You can also use the <xref
+                    href="https://github.com/Mermade/widdershins" format="html" scope="external"
+                    >Widdershins plugin</xref> to convert the Swagger json/yaml/html file to a Slate
+                supported markdown file.</p>
+            <p>There are many tools that can create single page applications using a set of markdown
+                files. For more information, <xref href="apiexamples.dita"> see the list of
+                    tools</xref> that I evaluated recently.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_j1h_t1g_nhb">
+                <title><b>Why use a 3-column API reference output format?</b></title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry/>
+                            <entry>Advantages</entry>
+                            <entry>Disadvantages</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Annotations are away from code. </entry>
+                            <entry>Code is clean and easy to read.</entry>
+                            <entry>If the APIs change frequently, we have to track and change the
+                                documentation accordingly. But in the case of published APIs that
+                                are consumed by many, this is hardly the case.</entry>
+                        </row>
+                        <row>
+                            <entry>Provide user-friendly content.</entry>
+                            <entry>You can add images, contextual information, API sequences that
+                                are custom written for each API endpoint to help customers leverage
+                                your APIs easily. </entry>
+                            <entry>Someone has to manually add them and this information is away
+                                from your code. </entry>
+                        </row>
+                        <row>
+                            <entry>Provide a testing environment.</entry>
+                            <entry>You can provide code examples for requests and responses and with
+                                developer's help, create a portal that can help run the
+                                APIs.</entry>
+                            <entry>Needs developer's effort to customize the portal.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>Common things to address</title>
+            <p>Things to keep in mind while creating external-facing API reference documentation: <ul
+                    id="ul_clp_vbg_nhb">
+                    <li>How do customers access our API endpoints? Explain the APIs that help create
+                        authentication tokens or user sessions in detail with multiple working
+                        examples.</li>
+                    <li>Run each API endpoint either using cURL or postman collections to simulate
+                        how a customer would run it.</li>
+                    <li>Make sure to run the APIs from a network that doesn't implicitly provide
+                        access to the resources or using a preconfigured development
+                        environment.</li>
+                    <li>Explain all the error codes and provide recommendations on how to fix the
+                        errors. </li>
+                </ul></p>
+        </section>
     </conbody>
 </concept>

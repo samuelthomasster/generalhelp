@@ -9,14 +9,14 @@
             <p><xref href="https://github.com/lord/slate" format="html" scope="external">
                     Slate</xref> is a popular method of representing REST APIs. You can capture your
                 endpoint details, request and response parameters and even provide code examples for
-                as many languages you support. This topic provides high-level steps to install Slate
+                as many languages as you support. This topic provides high-level steps to install Slate
                 and publish your API documentation.</p>
         </context>
         <steps>
             <step>
-                <cmd>Follow the installation instructions in the <xref
+                <cmd>Follow the installation instructions on <xref
                         href="https://github.com/lord/slate" format="html" scope="external"
-                        >Slate's</xref> website.</cmd>
+                        >the Slate website</xref>.</cmd>
                 <info>
                     <note>Make sure to create a fork of the repository before you clone the
                         fork.</note>
@@ -27,12 +27,12 @@
                     information.</cmd>
             </step>
             <step>
-                <cmd>To change the ouput color theme, edit the <codeph>_variables.scss</codeph> file
-                    located in <codeph>source\stylesheets</codeph></cmd>
+                <cmd>To change the output color theme, edit the <codeph>_variables.scss</codeph> file
+                    located in <codeph>source/stylesheets</codeph></cmd>
             </step>
             <step>
-                <cmd>You can also try your hands at screen.css.scss and print.css.scss to change the
-                    way the css elements are configured.</cmd>
+                <cmd>You can also customize screen.css.scss and print.css.scss to change the
+                    way the CSS elements are configured.</cmd>
             </step>
             <step>
                 <cmd>To change the logo, replace the <codeph>logo.png</codeph> file in the

@@ -2,10 +2,13 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_lrd_r1l_nfb">
     <title>My DITA learnings</title>
-    <shortdesc></shortdesc>
+    <shortdesc>Introduction to using DITA for documentation projects and the benefits of a documentation culture.</shortdesc>
     <conbody>
-        <p>This page captures some of my DITA learnings in the hopes of helping others use
-                    DITA.<div><wintitle>Key points</wintitle></div></p>
+        <section>
+            <title>Key points</title>
+            <p>This page captures some of my DITA learnings in the hopes of helping others use
+                DITA.</p>
+        </section>
         <p>DITA is a framework that helps writers contribute to a specific writing project even if
             the writers are spread across different geographies, have different writing styles and
             are unfamiliar in using appropriate information types, among other things. </p>
@@ -14,13 +17,36 @@
             conceptual dita topic that allows them to introduce only writing elements suitable for
             that topic. You can customize the DITA templates to provide such restrictions. </p>
 
-        <p>In today's world of open source development tools and infrastructure, many organisations
+        <p>In today's world of open source development tools and infrastructure, many organizations
             are moving away from using DITA for their inhouse documentation needs. Product companies
-            are trying to foster a documentation culture around their development teams. This can
-            help companies bridge knowledge gaps between teams, eliminate one neck to choke
-            situations, and increase new engingeer's productivity. </p>
+            are trying to foster a documentation culture within their development teams. This can
+            help companies bridge knowledge gaps between teams, eliminate information silos, and
+            increase new engineers' productivity. </p>
         <p>To motivate engineers create documentation as part of their development process, teams
             support tools such as markdown or a wiki implementation. However, implementing Wiki
             comes with its own set of drawbacks.</p>
+        <section id="section_best_practices">
+            <title>DITA Best Practices</title>
+            <p>To get the most out of DITA, consider following these industry best practices:</p>
+            <ul>
+                <li><b>Topic-Based Authoring:</b> Ensure you are using the correct information types
+                    (Concept, Task, Reference). Concepts explain "what," Tasks explain "how," and
+                    References provide lookup data.</li>
+                <li><b>Content Re-use (DRY):</b> Use <codeph>conref</codeph> to share content
+                    between topics. This prevents duplication and ensures that updates to common
+                    notes or warnings only need to be made in one place.</li>
+                <li><b>Semantic Inline Elements:</b> Instead of generic styling, use semantic tags
+                    like <codeph>&lt;uicontrol&gt;</codeph> for UI elements,
+                        <codeph>&lt;filepath&gt;</codeph> for file paths, and
+                        <codeph>&lt;userinput&gt;</codeph> for terminal commands.</li>
+                <li><b>Metadata and Prolog:</b> Use the <codeph>&lt;prolog&gt;</codeph> section to
+                    add keywords and metadata. This significantly improves the accuracy of the
+                    built-in search engines in WebHelp and other outputs.</li>
+                <li><b>Relationship Tables (RelTables):</b> Manage links in the DITA Map using
+                    relationship tables rather than hardcoding cross-references. This makes your
+                    content more modular and prevents broken links if topics are moved or
+                    removed.</li>
+            </ul>
+        </section>
     </conbody>
 </concept>
